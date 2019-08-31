@@ -1,0 +1,44 @@
+.list__header {
+  text-transform: capitalize;
+  padding-left: 25px;
+}
+
+.bike__list {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.bike__item {
+  list-style: none;
+  padding: 25px;
+  line-height: 1.5;
+}
+
+.bike__item__name {
+  font-weight: bold;
+}
+
+.bike__item__name,
+.bike__item__price {
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 16px;
+}
+
+.bike__item__add {
+  background: red;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.list__header {
+  font-size: 32px;
+}
